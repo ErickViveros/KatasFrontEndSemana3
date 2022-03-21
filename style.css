@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    pad: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Estilo header y menu de navegacion */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(255, 255, 255);
+    color: #412df8;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    margin-right: auto;
+}
+
+.navli {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+.navli li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navli li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navli li a:hover {
+    color: rgb(137, 138, 224);
+}
+
+.vaccineButton {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(6, 45, 218);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.vaccineButton:hover {
+    background-color: rgba(10, 2, 56, 0.8);
+}
+
+footer {
+    background-color: rgb(27, 11, 122);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.img-doc{
+    width: 100%;
+    height: auto;
+}
+
+
+.hright {
+    position: absolute;
+    top: 30%;
+    left: 1000px;
+    font-size: 50px;
+    color: rgb(0, 25, 136);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    text-align: left;
+  }
+
+.tright {
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    font-size: 30px;
+    color: rgb(111, 111, 112);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  
+.helpli {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.helpli li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.helpli li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.helpli li a:hover {
+    color: rgba(137, 224, 224, 1);
+}
+
+
+.helplist {
+    position: absolute;
+    top: 75%;
+    left: 1000px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  
+
+.tschedule{
+    position: absolute;
+    top: 85%;
+    left: 1000px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000000;
+}
+
+.rectangle {
+    position: absolute;
+    top: 92%;
+    right: 0px;
+    height: 150px;
+    width: 50%;
+    background-color: rgb(62, 0, 233);
+  }
+
+   
+.rectli {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.rectli li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.rectli li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rectlist {
+    position: absolute;
+    top: 94%;
+    left: 900px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+
+.rectli2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.rectli2 li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.rectli2 li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.rectlist2 {
+    position: absolute;
+    top: 100%;
+    left: 950px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+
+.vaccinebut {
+    position: absolute;
+    top: 96%;
+    right: 200px;
+    color: rgb(0, 0, 0);
+}
+
+.submitbutton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.vaccineButton:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
